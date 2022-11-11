@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+/* MAIN */
+.main {
+  background: rgba(0, 0, 0, 0.7) url(/images/bg.png);
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 130vh;
+}
+.box {
+  display: flex;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+h1 {
+  color: aliceblue;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bolder;
+  padding: 20px;
+}
+a:hover {
+  text-transform: uppercase;
+}
+.txt {
+  text-align: center;
+}
+.text{
+    margin: 50px;
+}
+.btn {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.orange {
+  border-color: orange;
+  color: white;
+}
+
+.orange:hover {
+  background-color: orange;
+  color: black;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN-2 */
+.main-2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.blc {
+  border-color: orange;
+  color: black;
+}
+
+.blc:hover {
+  background-color: orange;
+  color: white;
+}
+.img{
+  border-radius: 25px;
+  height: 245px;
+}
+.text{
+  padding: 60px;
+}
+.bun{
+  padding-top: 40px;
+}
+footer{
+  background-color: rgb(32, 32, 32);
+  
+}
+.F{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 90px;
+}
+.p{
+  color: white;
+  
+}
+.p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.C{
+  background-color: black;
+  height: 7vh;
+  margin-top: 5px;
+  text-align: center;
+}
+.pe{
+  color: rgb(176, 176, 176);
+  padding: 5px;
+  
+}
+.Logo{
+  height: 100px;
+}
+.pr{
+  color: orange;
+}
+.phone{
+  display: flex;
+  margin-top: 15px;
+}
+.oglo{
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+}
